@@ -17,10 +17,10 @@ function App() {
   return (<Router>
     <div  style={{backgroundColor: '#03254c' }}>
       <header className="App-header">
-        <Navbar bg="dark" variant="dark">
+        <Navbar bg="dark" variant="dark" className="rad">
           <Container>
 
-            <Navbar.Brand>
+            <Navbar.Brand >
               <Link to={"/create-student"} className="nav-link">
                 Students Info
               </Link>

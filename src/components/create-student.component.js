@@ -83,27 +83,27 @@ export default class CreateStudent extends Component {
     <Col sm={6}>
      <Form onSubmit={this.onSubmit} className=" bg-white text-dark t1" >
         <Form.Group controlId="Name" >
-          <Form.Label>Name</Form.Label>
+          <Form.Label>Name:</Form.Label>
           <Form.Control type="text" value={this.state.name} onChange={this.onChangeStudentName} />
         </Form.Group>
 
         <Form.Group controlId="Email">
-          <Form.Label>Email</Form.Label>
+          <Form.Label>Email:</Form.Label>
           <Form.Control type="email" value={this.state.email} onChange={this.onChangeStudentEmail} />
         </Form.Group>
 
         <Form.Group controlId="Name">
-          <Form.Label>Age</Form.Label>
+          <Form.Label>Age:</Form.Label>
           <Form.Control type="text" value={this.state.age} onChange={this.onChangeStudentAge} />
         </Form.Group>
 
         <Form.Group controlId="Name">
-          <Form.Label>City</Form.Label>
+          <Form.Label>City:</Form.Label>
           <Form.Control type="text" value={this.state.city} onChange={this.onChangeStudentCity} />
         </Form.Group>
 
         <Form.Group controlId="Name">
-          <Form.Label>Mobile</Form.Label>
+          <Form.Label>Mobile:</Form.Label>
           <Form.Control type="text" value={this.state.mobile} onChange={this.onChangeStudentMobile} />
         </Form.Group>
 

@@ -4,22 +4,23 @@ const Schema = mongoose.Schema;
 let studentSchema = new Schema({
  name: {
         type: String,
+        required: true
     },
     email: {
         type: String,
-        required: true,
+        required: true
     },
     age: {
         type: Number,
-        required: true,
+        required: true
     },
     city: {
         type: String,
-        required: true,
+        required: true
     },
     mobile: {
         type: Number,
-        required: true,
+        required: true
     }
 
 }, {
