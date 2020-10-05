@@ -61,7 +61,7 @@ export default class CreateStudent extends Component {
       mobile:this.state.mobile
     };
 
-    axios.post('https://ukifunwork2by-sajeev.herokuapp.com/create-student', studentObject)
+    axios.post('http://localhost:4000/students/create-student', studentObject)
       .then(res => console.log(res.data));
 
     this.setState({

@@ -15,7 +15,7 @@ export default class StudentList extends Component {
   }
 
   componentDidMount() {
-    axios.get('https://ukifunwork2by-sajeev.herokuapp.com/student-list')
+    axios.get('http://localhost:4000/students/')
       .then(res => {
         this.setState({
           students: res.data
